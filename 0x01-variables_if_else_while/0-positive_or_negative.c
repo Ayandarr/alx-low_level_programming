@@ -8,13 +8,15 @@
 
 /**
  *
- *  *main -> assign a random number to the variable n each time it is executed
+ *  * main - assign a random number to the variable n each time it is executed
  *
- *   *and print the last digit of the number stored in the variable n
+ *   * if the number is greater than 0: is positive, if the number is 0: is zero
  *
- *    *Return: Always 0 (Success)
+ *    * if the number is less than 0: is negative, followed by a new line
  *
- *     */
+ *     * Return: 0
+ *
+ *      */
 
 int main(void)
 
@@ -30,20 +32,30 @@ int main(void)
 
 	if (n > 0)
 
-			printf("%d is positive\n", n);
+	{
 
-	if (n == 0)
+		printf("%d is positive\n", n);
 
-			printf("%d is zero\n", n);
+	}
 
-	if (n < 0)
+	else if (n < 0)
 
 	{
 
-			printf("%d is negative\n", n);
+		printf("%d is negative\n", n);
+
+	}
+
+	else
+
+	{
+
+		printf("%d is zero\n", n);
 
 	}
 
 	return (0);
 
 }
+
+
