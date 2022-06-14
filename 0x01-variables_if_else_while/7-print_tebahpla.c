@@ -1,41 +1,16 @@
 #include <stdio.h>
 
-
-
 /**
- *
- *   * main - Prints the alphabet at reverse
- *
- *     *
- *
- *       * Return: Always (Success)
- *
- *         */
-
+ * main - Entry point
+ * Return:0
+ */
 int main(void)
-
 {
-
-		char c;
-
-
-
-			for (c = 'z'; c >= 'a'; c--)
-
-					{
-
-								putchar(c);
-
-									}
-
-
-
-				putchar('\n');
-
-
-
-					return (0);
-
+int x;
+for (x = 'z'; x >= 'a'; x--)
+{
+putchar (x);
 }
-
-
+putchar('\n');
+return (0);
+}
