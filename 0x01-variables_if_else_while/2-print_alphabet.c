@@ -1,35 +1,16 @@
-nclude <stdio.h>
-
-
+#include <stdio.h>
 
 /**
- *
- *  * main - Prints the alphabetic
- *
- *   *
- *
- *    * Return: Always (Success)
- *
- *     */
-
+ * main - Entry point
+ * Return:0
+ */
 int main(void)
-
 {
-
-		char c;
-
-
-
-			for (c = 'a'; c <= 'z'; c++)
-
-						putchar(c);
-
-
-
-				putchar('\n');
-
-					return (0);
-
+int x;
+for (x = 'a'; x <= 'z'; x++)
+{
+putchar (x);
 }
-
-
+putchar('\n');
+return (0);
+}
