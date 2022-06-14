@@ -1,41 +1,17 @@
-nclude <stdio.h>
-
-
+#include <stdio.h>
 
 /**
- *
- *   * main - Prints the numbers since 0 to 9
- *
- *     *
- *
- *       * Return: Always (Success)
- *
- *         */
+ * main - Entry point
+ * Return:0
+ */
 
 int main(void)
-
 {
-
-		char n;
-
-
-
-			for (n = '0'; n <= '9'; n++)
-
-					{
-
-								putchar(n);
-
-									}
-
-
-
-				putchar('\n');
-
-
-
-					return (0);
-
+int i;
+for (i = 0; i < 10; i++)
+{
+printf("%d", i);
 }
-
-
+printf("\n");
+return (0);
+}
